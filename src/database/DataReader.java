@@ -1,4 +1,6 @@
-package general;
+package database;
+
+import server.SearchType;
 
 abstract class DataReader
 {

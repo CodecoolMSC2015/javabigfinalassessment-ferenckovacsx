@@ -1,4 +1,4 @@
-package general;
+package database;
 
 import java.util.List;
 

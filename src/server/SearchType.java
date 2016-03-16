@@ -1,4 +1,4 @@
-package general;
+package server;
 
 public enum SearchType
 {

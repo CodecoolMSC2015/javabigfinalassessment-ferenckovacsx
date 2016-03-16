@@ -1,4 +1,4 @@
-package general;
+package database;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -26,17 +26,12 @@ public class CSVDataReader extends DataReader
 			String skillDescription = parsedData[3];
 			String skillRate = parsedData[4];
 			String salary = parsedData[5];
-			
+
 			System.out.println(name);
 			row = CSVFile.readLine();
 		}
 
 		CSVFile.close();
 	}
-	
-	public static void main(String[] args) throws IOException
-	{
-		new CSVDataReader();
-	}
-	
+
 }

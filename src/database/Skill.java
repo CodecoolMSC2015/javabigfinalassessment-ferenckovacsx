@@ -1,4 +1,4 @@
-package general;
+package database;
 
 public class Skill
 {

@@ -1,6 +1,6 @@
 //the purpose of this class is to be able to send two objects via the socket (searchtype and criteria)
 
-package general;
+package server;
 
 import java.io.Serializable;
 
