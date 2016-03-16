@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class PersonStore
+public class PersonStoreServerSocket
 {
 	public static void initServer()
 	{
@@ -37,6 +37,7 @@ public class PersonStore
 					List<String> listOfSkills = new ArrayList<>(Arrays.asList(socketObjectSkills.split(" , ")));
 					if (socketObjectSearchType == SearchType.MANDATORY)
 					{
+						
 						/*
 						Get suitable persons by skillset and MANDATORY searchtype
 			

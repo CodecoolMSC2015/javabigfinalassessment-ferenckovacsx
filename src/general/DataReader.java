@@ -1,30 +1,12 @@
 package general;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.util.HashSet;
-import java.util.Set;
-
-public class DataReader
+abstract class DataReader
 {
 	String searchCriteria;
 	SearchType searchType;
 
-	public static Set<Person> getPersons()
+	void getPersons()
 	{
-		Set<Person> setOfPersons = new HashSet<>();
-		try
-		{
-			InputStream input = new FileInputStream("filepath");
-			
-		} catch (FileNotFoundException e)
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return setOfPersons;
 		
 	}
 
